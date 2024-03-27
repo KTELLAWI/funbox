@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import axios from 'axios';
 import TextBanner from "@/components/text-banner"
 import { readItem, readItems } from '@directus/sdk';
@@ -64,7 +66,7 @@ const BlogsId = async  ({ params: { slug,locale } }: Props) => {
 
   const post = await getPosts(locale,slug);
 
-  // unstable_setRequestLocale(locale);
+  // //unstable_setRequestLocale(locale);
 
 //  console.log("Posttttttttttttttttt2",decodeURIComponent(slug));
   return (

@@ -1,4 +1,4 @@
-export const dynamic = 'force-static'
+export const dynamic = "force-dynamic";
 
 import Image from "next/image"
 import Header from "@/components/header"
@@ -11,7 +11,7 @@ type Props = {
   params: { locale: string };
 };
 const AboutUs = async ({ params: { locale } }: Props) => {
-  unstable_setRequestLocale(locale);
+  //unstable_setRequestLocale(locale);
 
 const t = await getTranslations("PageParagraph" as any);
 const { ABOUT_CARDS } = await importConstants(locale);

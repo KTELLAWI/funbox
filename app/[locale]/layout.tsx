@@ -87,7 +87,7 @@ export default async function RootLayout(
     children,
   }:
     Props) {
-      unstable_setRequestLocale(locale);
+      //unstable_setRequestLocale(locale);
 
   let messages;
 //const messages = getMessages()

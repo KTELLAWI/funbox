@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import axios from "axios";
 import Link from "next/link";
 import TextBanner from "@/components/text-banner";
@@ -61,7 +63,7 @@ async function getPosts(locale:string) {
 
 }
 export default async function Page({params:{locale}}:Props) { 
-  unstable_setRequestLocale(locale);
+  //unstable_setRequestLocale(locale);
 
   // console.log("parammmmmmmmmmmmmmmmmmmm",locale);
   //const [blogs, setBlogs] = useState([]);

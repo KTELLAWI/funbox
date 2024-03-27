@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import Link from "next/link"
 import Image from "next/image"
 import TextBanner from "@/components/text-banner"
@@ -18,7 +20,7 @@ type Props = {
 };
 // Now, you can use the imported constants
 const Activities = async ({ params: { locale } }: Props) => {
-  unstable_setRequestLocale(locale);
+  //unstable_setRequestLocale(locale);
 
   // const t = getTranslations();
   const { ACTIVITIES_CARDS, ACTIVITIES_FAQS } = await importConstants(locale);

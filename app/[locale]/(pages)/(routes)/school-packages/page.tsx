@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import Header from "@/components/header"
 import TextBanner from "@/components/text-banner"
 import PricingCard from "@/components/pricing-card"
@@ -10,7 +12,7 @@ type Props = {
   params: { locale: string };
 };
 const SchoolPackages = async({ params: { locale } }: Props) => {
-  unstable_setRequestLocale(locale);
+  //unstable_setRequestLocale(locale);
 
   // const locale = await getLocale();
   const t = getTranslations("PageTitle" as any);

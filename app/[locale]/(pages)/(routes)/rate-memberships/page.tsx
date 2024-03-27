@@ -1,4 +1,6 @@
 // import { RATE_CARDS } from "@/constants"
+export const dynamic = "force-dynamic";
+
 import TextBanner from "@/components/text-banner"
 import PricingCard from "@/components/pricing-card"
 import { getLocale, getTranslations } from "next-intl/server";

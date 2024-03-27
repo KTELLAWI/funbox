@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import TextBanner from "@/components/text-banner"
 import { ParallaxScroll } from "@/components/ui/parallax-scroll"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
@@ -118,7 +120,7 @@ type Props = {
 
 // }
 const Gallery = async ({ params: { locale } }: Props) => {
-  unstable_setRequestLocale(locale);
+  //unstable_setRequestLocale(locale);
   // const blogs = await getPosts(locale);
   // console.log("posts", blogs)
 

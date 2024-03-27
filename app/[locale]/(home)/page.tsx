@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import BirthdayTime from "./(sections)/birthday-time"
 import OurActivities from "./(sections)/our-activities"
 import RateAndMemberships from "./(sections)/rate-and-memberships"
@@ -10,7 +12,7 @@ type Props = {
   params: { locale: string };
 };
 const Home = async({ params: { locale } }: Props) => {
-  unstable_setRequestLocale(locale);
+  //unstable_setRequestLocale(locale);
 
   const lang = useLocale();
  // const t = await getTranslations('NavBar');

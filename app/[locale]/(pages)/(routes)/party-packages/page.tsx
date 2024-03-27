@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import Link from "next/link";
 import Image from "next/image"
 import Header from "@/components/header";
@@ -12,7 +14,7 @@ type Props = {
   params: { locale: string };
 };
 const PartyPackages = async ({ params: { locale } }: Props) => {
-  unstable_setRequestLocale(locale);
+  //unstable_setRequestLocale(locale);
 
   const t = await getTranslations("PageParagraph" as any);
 
