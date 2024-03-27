@@ -1,0 +1,31 @@
+{
+    "NavBar": {
+      "home": "Home",
+      "prices": "Prices",
+      "activities": "Activities",
+      "gallery": "Gallery",
+      "aboutus": "About",
+      "portfolio": "Portfolio",
+       "party-packages":"Party Packages",
+       "rate-memberships":"rate-memberships",
+      "services": "Services",
+      "blogs": "Blog",
+      "privacy-policy": "Privacy Policy",
+      "contactus": "Contact",
+      "lang": {
+        "title": "En",
+        "en": "En",
+        "ar": "Ar"
+      }
+    },
+    "PageTitle":{
+      "prices":"Prices"
+
+    },
+    "PageParagraph":{
+      "welcometofunbox1":"An indoor playground area that offers a unique experience for kids in an innovative, attractive and fun way. This is done through a series of interactive and digital games and art dedicated to improve the physical, emotional and social development of children.",
+      "welcometofunbox2":"The centre also offers various services for children under one roof such as party halls, educational workshops and others designed to entertain and motivate children.",
+        "PartyPackagePage1":"Looking for a place to host your child’s next birthday, graduation party, baby shower, or general gathering of friends? Look no further than Fun Box! Celebrate the good times with us! Planning parties can be really stressful! Book with us and allow our team to handle all the details for you. We will provide the food, drinks, and a memorable atmosphere, so all you’ll be left to do is enjoying your party.",
+        "PartyPackagePage2":"Evnt Manager will go with you through all the details and make sure that your party is conducted as planned."
+    }
+}
